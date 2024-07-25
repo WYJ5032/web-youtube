@@ -12,7 +12,6 @@ const Header = () => {
       <Menu/>
       
       <Sns/>
-
     </header>
   )
 }

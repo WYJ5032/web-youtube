@@ -11,7 +11,7 @@ const Sns = () => {
               <a
                 href={sns.url}
                 target='_blank'
-                rel='noopenner noreferren'
+                rel='noopener noreferrer'
                 aria-label={sns.title}>
                 <span>
                   {sns.icon}
