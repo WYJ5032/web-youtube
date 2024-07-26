@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const Home = lazy(()=> import('./pages/Home'));
 const Today = lazy(()=> import('./pages/Today'));
-const Developer = lazy(()=> import('./pages/Developer'));
+const Music = lazy(()=> import('./pages/Music'));
 const Webd = lazy(()=> import('./pages/Webd'));
 const Website = lazy(()=> import('./pages/Website'));
 const Gsap = lazy(()=> import('./pages/Gsap'));
@@ -23,7 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/today" element={<Today/>} />
-          <Route path="/developer" element={<Developer/>} />
+          <Route path="/music" element={<Music/>} />
           <Route path="/webd" element={<Webd/>} />
           <Route path="/website" element={<Website/>} />
           <Route path="/gsap" element={<Gsap/>} />

@@ -1,6 +1,6 @@
 import React from 'react'
 import Main from '../components/section/Main'
-import { todayText } from '../data/Today'
+import { todayText } from '../data/today'
 import { Link } from 'react-router-dom'
 
 const Today = () => {

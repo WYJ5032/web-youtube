@@ -1,5 +1,6 @@
 .header__logo{
     border-bottom: 1px solid var(--black100);
+    background-color: var(--black);
 
     @media(max-width:800px){
         border-bottom: 0;
@@ -29,6 +30,7 @@
 
 .header__menu{
     padding: 10px 0;
+    background-color: var(--black);
 
     .menu{
         border-bottom: 1px solid var(--black100);
