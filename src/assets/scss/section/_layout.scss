@@ -26,3 +26,28 @@
     font-size: 0.8rem;
     border-top: 1px solid var(--black100);
 }
+
+@media (max-width : 800px){
+    #header{
+        left: -300px;
+        h1{
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+        .header__sns{
+            display: none;
+        }
+    }
+
+    #main{
+        padding-left: 0;
+    }
+
+    #footer{
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 20px 20px 20px;
+    }
+}
