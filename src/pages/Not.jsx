@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Not = () => {
   return (
-    <Main>Not</Main>
+    <Main title="ERROR" description="에러페이지 입니다.">
+      Not
+    </Main>
   )
 }
 
