@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Webd = () => {
+const Movie = () => {
   return (
-    <div>Webd</div>
+    <div>Movie</div>
   )
 }
 
-export default Webd
+export default Movie
