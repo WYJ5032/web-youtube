@@ -1,5 +1,5 @@
 import React from 'react'
-import {todayText} from '../../data/today'
+import {todayText} from '../../data/Today'
 import { Link } from 'react-router-dom'
 
 const Today = () => {
